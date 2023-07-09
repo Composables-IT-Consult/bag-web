@@ -1,5 +1,5 @@
 <template>
-  <el-row :gutter="10">
+  <el-row :gutter="15">
     <el-col
       v-for="(product, index) in products"
       :key="index"
@@ -8,7 +8,7 @@
       :md="6"
       :lg="6"
       :xl="6"
-      class="mb-10"
+      class="mb-20"
     >
       <div
         class="products_div d-flex-col-center"
