@@ -36,7 +36,7 @@
           <div v-if="type == 'new-products'">
             <ProductsSlider :products="products" />
           </div>
-          <div v-else class="mt-10">
+          <div class="mt-10">
             <Products :products="products" />
           </div>
         </template>

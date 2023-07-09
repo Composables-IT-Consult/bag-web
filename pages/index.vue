@@ -25,9 +25,9 @@
         </el-col>
       </el-row>
 
-      <div class="mt-20">
+      <!-- <div class="mt-20">
         <ProductsList title="New products this week" type="new-products" />
-      </div>
+      </div> -->
 
       <div class="mt-20">
         <ProductsList title="Featured Products" type="all" />

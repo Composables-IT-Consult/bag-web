@@ -1,20 +1,20 @@
 <template>
-  <el-row :gutter="0">
+  <el-row :gutter="10">
     <el-col
       v-for="(product, index) in products"
       :key="index"
       :xs="12"
       :sm="12"
       :md="6"
-      :lg="4"
-      :xl="4"
+      :lg="6"
+      :xl="6"
       class="mb-10"
     >
       <div
         class="products_div d-flex-col-center"
         @click="showProductDeatils(product.name, product.id)"
       >
-        <img :src="product.media.source" height="150" />
+        <img :src="product.media.source" width="100%" />
         <div class="mt-10 px-0">
           <p class="product_name">{{ product.name }}</p>
 

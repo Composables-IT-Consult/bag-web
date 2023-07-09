@@ -184,7 +184,7 @@ hr.dot {
   color: var(--primary_red);
 }
 .products_div {
-  max-width: 190px;
+  /* max-width: 190px; */
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
   cursor: pointer;
   padding: 2px 0px 8px 0px;
