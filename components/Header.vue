@@ -5,7 +5,9 @@
         <el-row :gutter="10">
           <el-col :xs="12" :sm="12" :md="5">
             <div class="header_flex_center justify_start">
-              <NuxtLink to="/"> <img src="/bag1.png" /></NuxtLink>
+              <NuxtLink to="/">
+                <img src="/errlogo.png" width="200px"
+              /></NuxtLink>
             </div>
           </el-col>
 
@@ -183,7 +185,7 @@ export default {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: var(--primary_red);
+  background-color: #f0be0f;
   height: 72px !important;
   font-size: 0.875rem;
   width: 100%;
@@ -202,10 +204,10 @@ export default {
 }
 .account {
   cursor: pointer;
-  color: #e4e4e2;
+  color: rgb(58, 56, 56);
 
   &:hover {
-    color: var(--primary_yellow);
+    color: var(--primary_red);
   }
 
   .icon {

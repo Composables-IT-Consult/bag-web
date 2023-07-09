@@ -1,8 +1,8 @@
 <template>
   <div class="mt-10 daily_sales">
     <div class="d-flex">
-      <img src="/icon-deal.png" alt="sale" />
-      <!-- <CountDown /> -->
+      <img src="/deal2.png" alt="sale" />
+      <CountDown />
     </div>
     <el-carousel height="300px" arrow="always">
       <el-carousel-item
@@ -13,13 +13,13 @@
         <div class="d-flex-col-center">
           <img
             :src="require(`~/assets/img/products/${deals.image}`)"
-            height="170px"
+            width="200px"
           />
           <div class="mx-10 mt-10">
             <h5>
               {{ deals.name }}
             </h5>
-            <el-rate
+            <!-- <el-rate
               v-model="deals.rating"
               class="mt-10"
               disabled
@@ -27,7 +27,7 @@
               text-color="#ff9900"
               score-template="(4)"
             >
-            </el-rate>
+            </el-rate> -->
             <div class="mt-10">
               <span class="cancel_prize mr-10">
                 {{ getPriceWithCommas(deals.initial_price) }}
@@ -50,17 +50,17 @@ export default {
     return {
       dailyDeals: [
         {
-          name: 'HP OMEN - 16.1" Laptop - Intel Core i7 - 16GB Memory',
+          name: 'Long Grain Jollof Rice Recipe',
           price: 1800,
           initial_price: 2300,
-          image: 'bagp0002.jpg',
+          image: 'bag55.png',
           rating: 4,
         },
         {
           name: 'Westpool WP-666 Electric Blender - 1.5 Litres - Black',
           price: 200,
           initial_price: 250,
-          image: 'bagp0001.jpg',
+          image: 'bag56.png',
           rating: 3,
         },
       ],

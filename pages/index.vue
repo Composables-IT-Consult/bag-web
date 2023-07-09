@@ -9,10 +9,10 @@
           <div class="mt-10">
             <el-carousel height="378px" class="carousel_container">
               <el-carousel-item class="br-5">
-                <img src="/slide1.png" class="slider_img" />
+                <img src="/slide4.png" class="slider_img" />
               </el-carousel-item>
               <el-carousel-item class="br-5">
-                <img src="/slide2.jpg" class="slider_img" />
+                <img src="/slide5.png" class="slider_img" />
               </el-carousel-item>
               <el-carousel-item class="br-5">
                 <img src="/slide3.jpg" class="slider_img" />

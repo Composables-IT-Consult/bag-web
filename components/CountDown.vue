@@ -22,7 +22,7 @@ export default {
       const hour = minute * 60
       const day = hour * 24
 
-      const salesEnd = 'Feb 25 , 2022 00:00:00'
+      const salesEnd = 'Dec 30, 2023 00:00:00'
       const countDown = new Date(salesEnd).getTime()
 
       const x = setInterval(function () {
