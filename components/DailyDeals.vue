@@ -13,12 +13,12 @@
         <div class="d-flex-col-center">
           <img
             :src="require(`~/assets/img/products/${deals.image}`)"
-            width="200px"
+            height="250px"
           />
           <div class="mx-10 mt-10">
-            <h5>
+            <!-- <h5>
               {{ deals.name }}
-            </h5>
+            </h5> -->
             <!-- <el-rate
               v-model="deals.rating"
               class="mt-10"
@@ -28,7 +28,7 @@
               score-template="(4)"
             >
             </el-rate> -->
-            <div class="mt-10">
+            <div class="mt-5">
               <span class="cancel_prize mr-10">
                 {{ getPriceWithCommas(deals.initial_price) }}
               </span>
@@ -49,6 +49,13 @@ export default {
   data() {
     return {
       dailyDeals: [
+        {
+          name: 'Long Grain Jollof Rice Recipe',
+          price: 1800,
+          initial_price: 2300,
+          image: 'bag57.png',
+          rating: 4,
+        },
         {
           name: 'Long Grain Jollof Rice Recipe',
           price: 1800,

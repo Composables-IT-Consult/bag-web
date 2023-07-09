@@ -15,7 +15,7 @@
                 <img src="/slide5.png" class="slider_img" />
               </el-carousel-item>
               <el-carousel-item class="br-5">
-                <img src="/slide3.jpg" class="slider_img" />
+                <img src="/slide3.png" class="slider_img" />
               </el-carousel-item>
             </el-carousel>
           </div>
