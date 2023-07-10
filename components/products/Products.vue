@@ -14,7 +14,11 @@
         class="products_div d-flex-col-center"
         @click="showProductDeatils(product.name, product.id)"
       >
-        <img :src="product.media.source" width="100%" />
+        <img
+          :src="product.media.source"
+          width="100%"
+          style="border-radius: 5px ;"
+        />
         <div class="mt-10 px-0">
           <p class="product_name">{{ product.name }}</p>
 

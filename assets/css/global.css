@@ -189,9 +189,10 @@ hr.dot {
   cursor: pointer;
   padding: 2px 0px 8px 0px;
   margin-right: 5px;
+  border-radius: 5px;
 }
 .product_name {
-  width: 160px;
+  width: 180px;
   font-size: 13px;
   text-overflow: ellipsis;
   overflow: hidden;

@@ -1,7 +1,7 @@
 <template>
   <div class="mt-10 daily_sales">
     <div class="d-flex">
-      <img src="/deal2.png" alt="sale" />
+      <img src="/deal4.png" alt="sale" />
       <CountDown />
     </div>
     <el-carousel height="300px" arrow="always">
